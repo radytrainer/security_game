@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: sans-serif;
+    background-size: cover;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    z-index: 99999;
+
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    border: 3px solid #10cc9d;
+}
+input {
+    transform: scale(5); 
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.checks {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    color: #f1f1f1;
+    font-size: 40px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border:none;
+    background: #10cc9d;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #36383a;
+    cursor: pointer;
+}
+::placeholder {
+    font-size: 30px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  

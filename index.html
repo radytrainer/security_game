@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAM</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="error.mp3" type="audio/ogg">
+        <source src="error.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    <audio id="con">
+        <source src="wow.mp3" type="audio/ogg">
+        <source src="wow.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    <video autoplay muted loop id="myVideo">
+        <source src="bg.mp4" type="video/mp4">
+      </video>
+    <div class="container">
+        <div class="login">
+            <textarea name="" id="sms" rows="5" placeholder="Message" autofocus></textarea>
+        </div>
+        <div class="checks">
+            <input type="radio" name="virus" value="virus"> Virus
+            <input type="radio" name="virus" value="notvirus">Not virus
+        </div>
+        <div class="btn">
+            <button class="btn" type="button">Check</button>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
