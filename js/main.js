@@ -23,7 +23,7 @@ function displayErrorSong() {
             sms.value === "linuxubuntu" ||
             sms.value === "windowsos"
           ){
-            setTimeout(errorSong.play(), 1000);
+            setTimeout(errorSong.play(), 500);
             document.body.style.backgroundImage = "url('bg.jpg')";
             document.querySelector('video').style.display = "none";
             setTimeout(function () {
@@ -49,7 +49,7 @@ function displayErrorSong() {
             sms.value === "trojanhorse" ||
             sms.value === "wannacry"
           ){
-            setTimeout(errorSong.play(), 1000);
+            setTimeout(errorSong.play(), 500);
             document.body.style.backgroundImage = "url('bg.jpg')";
             document.querySelector('video').style.display = "none";
             setTimeout(function () {
