@@ -40,8 +40,12 @@ function displayErrorSong() {
             sms.value === "linuxubuntu" ||
             sms.value === "windowsos"
           ) {
-            alert("Congratulations");
-            document.querySelector('video').style.display = "block";
+            document.body.style.backgroundImage = "url('cong.jpg')";
+            document.querySelector('video').style.display = "none";
+            congrate.play();
+            setTimeout(function () {
+              document.querySelector('video').style.display = "block"
+            }, 3000)
           }else if (
             sms.value === "ransomware" ||
             sms.value === "trojanhorse" ||
