@@ -14,7 +14,6 @@ function displayErrorSong() {
           ) {
             document.body.style.backgroundImage = "url('cong.jpg')";
             document.querySelector('video').style.display = "none";
-            congrate.play();
             setTimeout(function () {
               document.querySelector('video').style.display = "block"
             }, 3000)
@@ -42,7 +41,6 @@ function displayErrorSong() {
           ) {
             document.body.style.backgroundImage = "url('cong.jpg')";
             document.querySelector('video').style.display = "none";
-            congrate.play();
             setTimeout(function () {
               document.querySelector('video').style.display = "block"
             }, 3000)
